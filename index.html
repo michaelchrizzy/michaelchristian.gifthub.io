@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootLocker Indonesia Christian Michael Alexander Sutrisno</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        }
+        .home-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .logo {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .category-buttons a {
+            display: inline-block;
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .category-buttons a:hover {
+            background-color: orange;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .product {
+            background-color: white;
+            color: black;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="home-container">
+        <img src="https://hytrape.com/cdn/shop/articles/FOOT_LOCKER_LOGO_9c7a6360-57c1-4226-95ea-d08b89d8b6b6.webp?v=1720647721" alt="FL Logo" class="logo">
+        <h1>Toko Christian Michael 96/6</h1>
+        <div class="category-buttons">
+            <a href="men.html">MEN</a>
+            <a href="women.html">WOMEN</a>
+            <a href="kids.html">KIDS</a>
+            <a href="accessories.html">ACCESSORIES</a>
+            <a href="contact person.html">CONTACT PERSON</a>
+        </div>
+    </div>
+</body>
+</html>
